@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+  text-decoration: none;
+  border : none;
+  color: black;
+}
+
+.btn--blue {
+  background-color: #458FF6;
+  color: white;
+  border-radius: 55px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 40px;
+  width: 200px;
+}
+
+.btn--white {
+  background-color: white;
+  color: #458FF6;
+  border-radius: 55px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 40px;
+  width: 200px;
+  box-sizing: border-box;
+  border : 1px solid #458FF6;
+}
+
+#app {
+  margin: 40px 190px;
+}
+
+.banner {
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo__ellipse {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #458FF6;
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+  padding: 2px 10px;
+}
+
+.header_logo__text {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.header__right__link {
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+.header__right__link--active {
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin-top: 185px;
+}
+
+.hero__left__title {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.hero__left__descrition {
+  font-weight: 300;
+  font-size: 21px;
+  color: #7D7987;
+  margin-bottom: 45px;
+}
+
+.hero__img {
+  height: 600px;
+  width: 700px;
+  margin-top: 84px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services__title {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+.services__description {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  color:#7D7987;
+  padding: 0 100px;
+  margin-bottom: 40px;
+}
+
+hr {
+  border-top: 3px solid #333;
+  width: 50px;
+  margin: 26px auto;
+}
+
+.services__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  row-gap: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services__service {
+  background: #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  padding: 20px 20px;
+}
+
+.services__service__img {
+  height: 30%;
+  margin : 30px 0;
+}
+
+.services__service__title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.services__service__description {
+  font-weight: 300;
+  font-size: 16px;
+  color:#7D7987;
+}
+
+.services__btn {
+  margin: auto;
+}
